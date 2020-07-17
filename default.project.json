@@ -31,6 +31,12 @@
         "$path": "util.lua",
         "Network": {
           "$path": "Network.lua"
+        },
+        "Event": {
+          "$path": "Event.lua",
+          "EventSignal": {
+            "$path": "EventSignal.lua"
+          }
         }
       }
     },
