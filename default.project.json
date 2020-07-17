@@ -13,11 +13,11 @@
       "$properties": {
         "Technology": "Voxel",
         "Ambient": [
-          0.0,
-          0.0,
-          0.0
+          0,
+          0,
+          0
         ],
-        "Brightness": 2.0,
+        "Brightness": 2,
         "GlobalShadows": true,
         "Outlines": false
       }
@@ -26,6 +26,12 @@
       "$className": "ReplicatedStorage",
       "Source": {
         "$path": "src"
+      },
+      "util": {
+        "$path": "util.lua",
+        "Network": {
+          "$path": "Network.lua"
+        }
       }
     },
     "SoundService": {
@@ -49,15 +55,15 @@
           ],
           "Locked": true,
           "Size": [
-            512.0,
-            20.0,
-            512.0
+            512,
+            20,
+            512
           ],
           "Anchored": true,
           "Position": [
-            0.0,
-            -10.0,
-            0.0
+            0,
+            -10,
+            0
           ]
         }
       }
